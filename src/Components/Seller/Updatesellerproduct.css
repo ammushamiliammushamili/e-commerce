@@ -1,0 +1,25 @@
+.form-sec {
+    margin-left: 390px;
+    margin-top: 80px;
+}
+
+.sellerform {
+    height: 30px;
+    width: 30vw;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.sellerbtn {
+    height: 40px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 140px;
+    background-color: green;
+
+}
+
+.sellerupdatehead {
+    margin-left: 80px;
+
+}

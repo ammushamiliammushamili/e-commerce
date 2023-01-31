@@ -1,0 +1,118 @@
+.products {
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    /* margin-left: 10px; */
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.toy-products {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.winter-products {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.home-products {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.electronics {
+    width: 250px;
+    text-align: center;
+}
+
+.elec-image {
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/f64129c97db8bbea.jpg?q=90");
+    width: 250px;
+    height: 120px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.toy-image {
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+    width: 250px;
+    height: 120px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.winter-image {
+    width: 250px;
+    height: 120px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.home-image {
+    width: 250px;
+    height: 120px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.txt1 {
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 60px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.view {
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    font-size: 13px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.sub-carousal {
+    width: 1230px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.react-multiple-carousel__arrow::before {
+    color: black;
+
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 29px 2px;
+    top: 90px;
+}
+
+.react-multiple-carousel__arrow {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 29px 2px;
+    top: 90px;
+    box-shadow: 1px 1px 1px gray;
+}

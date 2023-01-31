@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    margin-top: 60px;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    background-color: white;
+    text-align: center;
+}
+
+.photos {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.product {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 7px;
+}

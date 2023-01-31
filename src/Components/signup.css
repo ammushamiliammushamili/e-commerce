@@ -1,0 +1,70 @@
+.signup-page {
+    display: flex;
+    color: #212121;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 528px;
+    width: 100%;
+}
+
+.signup-container {
+    width: 800px;
+
+}
+
+.signup-image {
+    background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png");
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    background-color: #2874f0;
+    color: #fff;
+    padding: 20px 33px;
+    font-size: 15px;
+}
+
+.login-btn {
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    border: none;
+    color: #fff;
+    width: 300px;
+    height: 48px;
+    font-size: 15px;
+    margin-left: 20px;
+    width: 300px;
+    height: 48px;
+
+}
+
+.input-fields {
+    width: 300px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+    margin-left: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #2874f0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+span {
+    color: blue;
+}
+
+
+.heading {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.para {
+    font-size: 16px;
+}

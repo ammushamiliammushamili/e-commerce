@@ -1,0 +1,116 @@
+* {
+    top: 0;
+}
+
+.nav {
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 0px ; */
+    /* padding:10px; */
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    z-index: 1000;
+}
+
+Link {
+    color: white;
+}
+
+.flip-main {
+    width: 75px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.star {
+    width: 10px;
+    height: 10px;
+}
+
+.plus {
+    color: #ffe711;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.logo .explore {
+    color: white;
+    position: relative;
+    top: -15px;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.search {
+    background-color: white;
+    padding: 8px;
+    /* width: 420px; */
+    width: 540px;
+    height: 20px;
+    /* margin: 0px 15px; */
+    /* margin: 0px 15px; */
+    margin-left: 10px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), 7px 7px 10px rgb(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.search .search-input {
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.login {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+    background-color: white;
+    /* padding: 10px; */
+
+
+}
+
+.text {
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.text1 {
+    margin-left: 40px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.navbarsignup {
+    /* padding: 7px 40px; */
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2874f0;
+    background-color: white;
+    width: 80px;
+    height: 33px;
+    /* padding: 10px; */
+}
+
+.navbarname {
+    color: white;
+}

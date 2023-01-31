@@ -1,0 +1,36 @@
+.buyproductfrom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 420px;
+    margin-top: 150px;
+}
+
+.buyproductfrom input {
+    /* padding: 10px; */
+    width: 30vw;
+    height: 5vh;
+    margin: 3px;
+}
+
+.buyproducybtn {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.onlinepayment {
+    width: 160px;
+    height: 40px;
+}
+
+.cashondelivery {
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+
+.buynowsubmitbtn {
+    width: 30vw;
+    height: 40px;
+    margin-top: 10px;
+}

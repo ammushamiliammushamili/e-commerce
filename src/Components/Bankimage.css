@@ -1,0 +1,16 @@
+.bank {
+    width: 100vw;
+    height: 10vh;
+    /* margin-top: -10px; */
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+
+.bank-image {
+    background: url("https://rukminim1.flixcart.com/fk-p-flap/3006/260/image/87da51544bff6617.jpg?q=50");
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+
+}

@@ -1,0 +1,73 @@
+* {
+    top: 0;
+}
+
+.sellernav {
+    background-color: #256316;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 0px ; */
+    /* padding:10px; */
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+}
+
+.sellerflip-main {
+    width: 75px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 500px;
+}
+
+.sellerlogin {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    /* border: none; */
+    outline: none;
+    color: #2874f0;
+    background-color: white;
+}
+
+.sellerregister {
+    /* padding: 7px 40px; */
+    font-size: 16px;
+    font-weight: 550;
+    /* border: none; */
+    outline: none;
+    color: #090909;
+    background-color: white;
+    width: 140px;
+    height: 37px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.selleraddcard {
+    /* padding: 7px 40px; */
+    font-size: 16px;
+    font-weight: 550;
+    /* border: none; */
+    outline: none;
+    color: #030303;
+    background-color: white;
+    width: 140px;
+    height: 37px;
+    margin: 10px;
+    text-align: center;
+}
+
+.seller-name {
+    width: 140px;
+    height: 37px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 550;
+    color: #030303;
+    font-size: 16px;
+    background-color: white;
+
+}
