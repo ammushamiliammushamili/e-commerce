@@ -8,11 +8,12 @@ import Signup from './signup';
 import { useContext } from 'react';
 import { DemoContext } from '../context/DemoContext';
 import { UserContext } from '../context/UserContext';
-import { Link } from '@mui/material';
+import { Link } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 function Navbar() {
     const [open, setOpen] = useState(false)
     const { loginuser, setloginuser } = useContext(UserContext)
-
+    const navigate = useNavigate()
     function openLogin() {
         setOpen(true)
     }
@@ -24,6 +25,14 @@ function Navbar() {
     function logout() {
         setloginuser(null)
     }
+    function cart() {
+        if (loginuser) {
+            navigate("/cart")
+        } else {
+            setOpen(true)
+        }
+    }
+
 
 
     // function changedemo() {
@@ -60,10 +69,10 @@ function Navbar() {
                 <p className='text'>More
                     <ArrowDropDownIcon />
                 </p>
-                <p className='text'>
+                <p onClick={cart} className='text'>
                     <ShoppingCartIcon />
                     Cart</p>
-                <Link to="/buynowproduct"> view orders</Link>
+                <Link to="/buynowproduct"> view order</Link>
 
                 {loginuser && <button onClick={logout}>logout</button>}
             </div>

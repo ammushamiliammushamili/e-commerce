@@ -175,6 +175,16 @@ export async function cartproduct(userid, productid) {
     }
 
 }
+export async function viewcart(userid) {
+    try {
+        let response = await axios.get(baseURL + '/viewcart/' + userid)
+        return response.data
+
+    } catch (error) {
+        console.log(error);
+        return { error: "error" }
+    }
+}
 
 
 

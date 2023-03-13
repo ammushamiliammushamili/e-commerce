@@ -17,6 +17,7 @@ import Updatesellerproduct from './Components/Seller/Updatesellerproduct';
 import Buynowproduct from './Components/Seller/Buynow'
 import Vieworderpage from './Components/Vieworderpage';
 import SellerVieworder from './Components/Seller/SellerVieworder';
+import Placeorder from './Components/Placeorder';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/Viewproduct' element={<Viewproduct />} />
           <Route path='/buynowproduct' element={<Buynowproduct></Buynowproduct>}></Route>
           <Route path='/vieworder' element={<Vieworderpage></Vieworderpage>}></Route>
+          <Route path='/placeorder' element={<Placeorder />} />
 
           <Route path="/seller">
             <Route path='' exact element={<SellerRoute><SellerHome></SellerHome></SellerRoute>}></Route>
