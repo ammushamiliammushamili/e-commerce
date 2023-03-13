@@ -10,10 +10,6 @@ export default function Signup({ signopen, setSignopen }) {
     const mobilenumberRef = useRef()
 
     async function doSignup() {
-        // alert(userNameRef.current.value)         
-        // alert(passwordRef.current.value)
-        // alert(emailRef.current.value)
-        // alert(mobilenumberRef.current.value)
         let obj = {
             username: userNameRef.current.value,
             password: passwordRef.current.value,
@@ -22,7 +18,6 @@ export default function Signup({ signopen, setSignopen }) {
         }
         console.log(obj);
         let response = await signupUser(obj)
-        // console.log(response.data);
         if (response.success) {
             alert(response.msg)
 
