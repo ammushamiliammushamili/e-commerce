@@ -18,7 +18,7 @@ function Vieworderpage() {
     async function fetchgetallorders() {
         let response = await userorders(loginuser._id)
         setallproducts(response.orders)
-        console.log(response);
+        console.log(response.data);
     }
     useEffect(() => {
         fetchgetallorders()
